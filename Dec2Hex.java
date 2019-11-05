@@ -15,23 +15,23 @@ class Dec2Hex
             } 
             catch (NumberFormatException e) 
             {
-                System.err.println("Argument '" + args[0] + "' must be an integer.");
+                System.err.println("Argument" + args[0] + "must be an integer.");
                 System.exit(1);
             }
         }
 	
 	if(!args.length >= 0)
-        }
+        {
 	    try 
             {
                 Arg1 = Integer.parseInt(args[0]);
-            } 
+            }
             catch (NumberFormatException e) 
             {
-                System.err.println("Argument '" + args[0] + "' is not an integer.");
+                System.err.println("Argument" + args[0] + "is not an integer.");
                 System.exit(1);
-		}
 	    }
+        }
 
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
