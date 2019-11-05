@@ -21,7 +21,7 @@ class Dec2Hex
         }
 	else
         {
-                System.err.println("Argument is not an integer.");
+                System.err.println("Argument '" + "' is not an integer.");
                 System.exit(1);
         }
 
