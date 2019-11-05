@@ -15,20 +15,14 @@ class Dec2Hex
             } 
             catch (NumberFormatException e) 
             {
-                System.err.println("Argument" + args[0] + " must be an integer.");
+                System.err.println("Argument '" + args[0] + "' must be an integer.");
                 System.exit(1);
             }
         }
-        
         else
         } 
-	    try 
             {
-                Arg1 = Integer.parseInt(args[0]);
-            } 
-            catch (NumberFormatException e) 
-            {
-                System.err.println("Argument" + args[0] + " is not an integer.");
+                System.err.println("Argument '" + args[0] + "' is not an integer.");
                 System.exit(1);
             }
         }
