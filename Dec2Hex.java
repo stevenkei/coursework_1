@@ -20,13 +20,10 @@ class Dec2Hex
             }
         }
         else
-        } 
-            {
+        }
                 System.err.println("Argument '" + args[0] + "' is not an integer.");
                 System.exit(1);
-            }
-        }
-
+	}
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
 	num = Arg1;
